@@ -28,10 +28,10 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
 	return payment.toFixed(2);
 }
 
-amount = 5500000, // сумма кредита
-	contribution = 4500000, // первоначальный взнос
-	percent = 14.9, // процентная ставка
-	countMonths = 60; // срок кредита в месяцах
+amount = 50000, // сумма кредита
+	contribution = 0, // первоначальный взнос
+	percent = 10, // процентная ставка
+	countMonths = 12; // срок кредита в месяцах
 
 console.log("Общая сумма кредита: " + amount + " руб");
 console.log("Взнос: " + contribution + " руб");
