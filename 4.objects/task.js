@@ -19,7 +19,7 @@ function Student(name, gender, age) {
   };
   
   Student.prototype.getAverage = function () {
-	if (this.hasOwnProperty("marks") && this.marks !== []) {
+	if (this.hasOwnProperty("marks")) {
 	  return this.marks.reduce((acc, value) => acc + value / this.marks.length, 0);
 	} else {
 	  return 0;
